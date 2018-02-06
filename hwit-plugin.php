@@ -32,6 +32,7 @@ function hwit_cpt() {
     'menu_position' => 5,
     'supports' => array( 'title', 'editor', 'thumbnail', 'excerpt' ),
     'show_in_nav_menus' => true,
-    'has_archive' => true
+    'has_archive' => true,
+    'taxonomies' => array( 'category', 'post_tag' ), // add default post categories and tags
   ));
 }
